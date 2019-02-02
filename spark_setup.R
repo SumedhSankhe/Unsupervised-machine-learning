@@ -1,3 +1,5 @@
+pkgs <- c("sparklyr")
+
 setup <- function(pkgs, mem = "8G"){
   # This function sets up the spark configuration that is required
   # if you are running this locally please check if you support the
